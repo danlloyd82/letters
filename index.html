@@ -1,8 +1,18 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-<title>Test</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Letter Tracing</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-Test
+  <div id="game">
+    <svg id="letter-svg" viewBox="0 0 100 100" preserveAspectRatio="xMidYMid meet"></svg>
+    <canvas id="trace-canvas"></canvas>
+    <button id="next-btn" hidden>Next Letter</button>
+  </div>
+
+  <script src="script.js"></script>
 </body>
 </html>
