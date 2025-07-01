@@ -123,7 +123,7 @@ function checkMatch() {
   const accuracy = matched / requiredPixels.length;
   console.log(`Accuracy: ${(accuracy * 100).toFixed(1)}%`);
 
-  if (accuracy >= 0.9) {
+  if (accuracy >= 0.7) {
     document.getElementById("next-btn").hidden = false;
   }
 }
